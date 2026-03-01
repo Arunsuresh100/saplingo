@@ -1,0 +1,7 @@
+{
+  "name": "saplingo-root",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd frontend/saplingo && npm install && npm run build"
+  }
+}
