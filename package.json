@@ -2,9 +2,6 @@
   "name": "saplingo-root",
   "version": "1.0.0",
   "scripts": {
-    "build": "cd frontend/saplingo && npm install && npm run build"
-  },
-  "dependencies": {
-    "react-scripts": "5.0.1"
+    "build": "npm install --prefix frontend/saplingo && npm run build --prefix frontend/saplingo"
   }
 }
